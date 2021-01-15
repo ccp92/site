@@ -7,7 +7,7 @@ const Intro = (): JSX.Element => {
           Software Engineer.
         </h1>
         <a className="action-button" data-test="action-button" href="https://github.com/ccp92">
-          Learn more
+          Github profile
         </a>
       </div>
     </div>

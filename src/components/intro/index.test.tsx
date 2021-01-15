@@ -8,6 +8,6 @@ describe("Intro", () => {
     const wrapper = shallow(<Intro />);
     const actionButton = wrapper.find({ "data-test": "action-button" });
     expect(actionButton.length).toBe(1);
-    expect(actionButton.text()).toBe("Learn more");
+    expect(actionButton.text()).toBe("Github profile");
   });
 });
