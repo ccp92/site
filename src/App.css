@@ -1,3 +1,7 @@
+:root {
+  --main-accent-color: #162be3;
+}
+
 .App {
   text-align: center;
 }
@@ -14,20 +18,20 @@
 }
 
 .dev-name {
-  color: #162be3;
+  color: var(--main-accent-color);
 }
 
 .action-button {
-  border: 3px solid #162be3;
+  border: 3px solid var(--main-accent-color);
   padding: 0.5em;
-  color: #162be3;
+  color: var(--main-accent-color);
   font-weight: bold;
   text-decoration: none;
 }
 
 .action-button:visited {
-  border: 3px solid #162be3;
+  border: 3px solid var(--main-accent-color);
   padding: 0.7em;
-  color: #162be3;
+  color: var(--main-accent-color);
   text-decoration: none;
 }
