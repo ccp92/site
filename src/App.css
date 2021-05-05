@@ -35,3 +35,18 @@
   color: var(--main-accent-color);
   text-decoration: none;
 }
+
+.about-background {
+  /* background: rgb(198,195,233); */
+  background: linear-gradient(114deg, rgba(198,195,233,1) 0%, rgba(97,218,251,1) 46%, rgba(45,199,231,1) 94%); 
+  color: white;
+}
+
+.profile-picture {
+  max-width: 20em;
+  max-height: 20em;
+}
+
+.about-text {
+  padding: 1em;
+}
