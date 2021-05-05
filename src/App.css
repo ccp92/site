@@ -14,20 +14,20 @@
 }
 
 .dev-name {
-  color: #61dafb;
+  color: #162be3;
 }
 
 .action-button {
-  border: 3px solid #61dafb;
+  border: 3px solid #162be3;
   padding: 0.5em;
-  color: #61dafb;
+  color: #162be3;
   font-weight: bold;
   text-decoration: none;
 }
 
 .action-button:visited {
-  border: 3px solid #61dafb;
+  border: 3px solid #162be3;
   padding: 0.7em;
-  color: #61dafb;
+  color: #162be3;
   text-decoration: none;
 }
