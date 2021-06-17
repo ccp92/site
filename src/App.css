@@ -22,16 +22,33 @@
 }
 
 .action-button {
-  border: 3px solid var(--main-accent-color);
+  border: 3px solid black;
   padding: 0.5em;
-  color: var(--main-accent-color);
+  color: black;
   font-weight: bold;
   text-decoration: none;
 }
 
 .action-button:visited {
-  border: 3px solid var(--main-accent-color);
+  border: 3px solid black;
   padding: 0.7em;
-  color: var(--main-accent-color);
+  color: black;
   text-decoration: none;
+}
+
+.main-action-button {
+  border: 3px solid var(--main-accent-color);
+  color: var(--main-accent-color);
+  margin-right: 1em;
+}
+
+.main-action-button:visited {
+  border: 3px solid var(--main-accent-color);
+  color: var(--main-accent-color);
+  margin-right: 1em;
+}
+
+.button-row {
+  display: flex;
+  justify-content: center;
 }
